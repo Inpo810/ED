@@ -3,9 +3,10 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-// すべてのリクエストをkanimayo.f5.siにプロキシ
+// すべ
+てのリクエストをkanimayo.f5.siにプロキシ
 app.use('/', createProxyMiddleware({
-  target: 'https://loli.xianyu6.workers.dev/-----https://www.youtube.com/',
+  target: 'https://charat.me/dotch/ja',
   changeOrigin: true,
   ws: true,
   secure: false // 証明書が自己署名などの場合に必要
